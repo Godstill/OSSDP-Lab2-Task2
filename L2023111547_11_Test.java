@@ -43,7 +43,7 @@ public class L2023111547_11_Test {
         assertEquals("应该找到2个不重复的三元组", 2, result.size());
         assertTrue("应该包含三元组 [-1, -1, 2]", containsTriplet(result, -1, -1, 2));
         assertTrue("应该包含三元组 [-1, 0, 1]", containsTriplet(result, -1, 0, 1));
-    }
+//代码格式工整，考虑严谨，测试点齐全，也有考虑到重复情况    }
 
     /**
      * 测试目的：验证算法能正确处理无解的情况
@@ -202,6 +202,6 @@ public class L2023111547_11_Test {
                 }
             }
         }
-        return false;
+        return false;////代码格式工整，考虑严谨，测试点齐全，也有考虑到重复情况
     }
 }
